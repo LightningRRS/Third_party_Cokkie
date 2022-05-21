@@ -1,0 +1,57 @@
+.app__header {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.app__headerBlack {
+  background-color: #111;
+}
+
+.app__headerSearch {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid black;
+  width: 400px;
+  font-size: larger;
+  outline-width: 0;
+  background: none;
+  color: white;
+}
+
+.app__headerInput {
+  transition-timing-function: ease-in;
+  transition: all 1s;
+}
+
+.app__headerImage {
+  object-fit: contain;
+  width: 100px;
+  margin-left: 5px;
+  /* position: fixed;
+  left: 20px; */
+}
+
+.app__headerOptions {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.app__headerOptionsImage {
+  object-fit: contain;
+  width: 30px;
+  margin-left: 5px;
+}
+
+.app__headerSearchIcon {
+  border: none;
+  color: white;
+}

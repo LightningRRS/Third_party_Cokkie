@@ -1,0 +1,74 @@
+.movieRouted_page {
+  margin-top: 60px;
+  display: flex;
+  height: 50vh;
+}
+
+.movieRouted__poster {
+  object-fit: contain;
+  /* width: 50vw; */
+  max-height: 50vh;
+}
+
+.movieRouted__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 30px;
+  border: 1px solid lightgray;
+  width: 100%;
+}
+
+.movieRouted__descriptionName > h1 {
+  font-size: 2rem;
+}
+
+.movieRouted__descriptionRating {
+  font-size: 2rem;
+}
+
+.movieRouted__descriptionTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movieRouted__interests {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movieRouted__genre {
+  font-size: 1.5rem;
+}
+
+.movieRouted__ImdbRating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movieRouted__overview {
+  font-size: 1rem;
+}
+
+.movieRouted__GOTOIMDB {
+  padding-bottom: 5px;
+}
+
+.movieRouted__trailerButton {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.movieRouted__trailerButton:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.movieRouted__fullPage {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,25 @@
+.movie__result {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 10px;
+}
+
+.movieResult__posters {
+  object-fit: contain;
+  width: 100%;
+  max-height: 300px;
+  margin-right: 10px;
+  transition: transform 450ms;
+}
+
+.movieResult__posters:hover {
+  transform: scale(1.08);
+}
+
+.movie__name {
+  font-size: smaller;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,20 @@
+.row__movies {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 10px;
+}
+
+.row__movies::-webkit-scrollbar {
+    display: none;
+}
+
+
+.row__title {
+    font-size: larger;
+    padding: 16px;
+}
+
+.row {
+    margin-top: 10px;
+}
